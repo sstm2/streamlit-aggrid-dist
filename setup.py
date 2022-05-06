@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="streamlit-aggrid",
     version="0.2.1",
-    author="Pablo Fonseca",
-    author_email="pablo.fonseca+pip@gmail.com",
+    author="System2",
+    author_email="kevin@sstm2.com",
     description="Streamlit component implementation of ag-grid",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/PablocFonseca/streamlit-aggrid",
+    url="https://github.com/sstm2/streamlit-aggrid",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
