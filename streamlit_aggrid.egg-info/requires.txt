@@ -1,4 +1,0 @@
-streamlit>=0.75
-simplejson>=3.0
-pandas
-numpy
