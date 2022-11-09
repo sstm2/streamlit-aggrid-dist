@@ -7,7 +7,7 @@ This repo is used to host distributable wheels for our changes to streamlit-aggr
 To refer to a version of streamlit-aggrid in this repo...
 
 1. Edit your requirements.txt
-1. Add a line like: `streamlit @ streamlit-aggrid @ https://github.com/sstm2/streamlit-aggrid-dist/blob/main/dist/streamlit_aggrid-0.2.3.post2-py3-none-any.whl?raw=true`
+1. Add a line like: `streamlit-aggrid @ https://github.com/sstm2/streamlit-aggrid-dist/blob/main/dist/streamlit_aggrid-0.2.3.post2-py3-none-any.whl?raw=true`
   - You can get the URL by viewing the wheel from https://github.com/sstm2/streamlit-aggrid-dist/tree/main/ and copying the link to the "raw"
 1. Update your virtual environment: `pip install -r requirements.txt`
 1. Done!
