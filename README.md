@@ -16,6 +16,7 @@ To refer to a version of streamlit-aggrid in this repo...
 
 ## Prerequisites
 * You will need npm (node packaqge manager) installed. Easiest way on a Mac is `brew install nodejs`
+* You will need yarn (different node package manager). Easiest way is `brew install yarn`
 * You will need poetry installed. `pip install poetry` in your base Python environment.
 
 ## Let's Go
@@ -23,6 +24,7 @@ To refer to a version of streamlit-aggrid in this repo...
 1. Change to the feature branch which has your changes or create a new branch for your changes
 1. Make changes
 1. Commit
+1. Install node modules (only need to do this once): `yarn install`
 1. Run the build: `npm run build`
 1. The new wheel and package should be in dist/
 1. Copy the wheel and egg to this repo.
